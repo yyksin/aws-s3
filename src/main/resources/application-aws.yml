@@ -1,0 +1,10 @@
+cloud:
+  aws:
+    s3:
+      bucket: yyk1
+    region:
+      static: us-east-2
+    stack:
+      auto: false
+    credentials:
+      instance-profile: true
